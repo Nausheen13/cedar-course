@@ -1,10 +1,4 @@
 from bayes_opt import BayesianOptimization
-from PyFoam.RunDictionary.ParsedParameterFile import ParsedParameterFile
-#from PyFoam.Infrastructure.ClusterJob import SolverRunner
-# from PyFoam.Execution.UtilityRunner import UtilityRunner
-# from PyFoam.Execution.AnalyzedRunner import AnalyzedRunner
-# from PyFoam.Execution.BasicRunner import BasicRunner
-#from PyFoam.Analysis.CompactAnalyzer import CompactAnalyzer
 from datetime import datetime
 import shutil
 import os
