@@ -1,0 +1,15 @@
+bayesian-optimization
+numpy
+matplotlib
+scipy
+shutil  # Built-in, no need to install
+os      # Built-in, no need to install
+sys     # Built-in, no need to install
+datetime  # Built-in, no need to install
+math  # Built-in, no need to install
+uuid  # Built-in, no need to install
+pyDOE
+csv  # Built-in, no need to install
+argparse  # Built-in, no need to install
+json  # Built-in, no need to install
+
