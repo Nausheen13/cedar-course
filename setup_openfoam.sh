@@ -7,13 +7,14 @@ echo "Starting OpenFOAM setup..."
 
 # Update and install git
 apt-get update
-apt-get install -y git
+apt install -y vim
+#apt-get install -y git
 
 # Clone repository
-cd /data
-echo "Cloning repository..."
-git clone https://github.com/Nausheen13/cedar-course.git
-cd cedar-course
+#cd /data
+#echo "Cloning repository..."
+#git clone https://github.com/Nausheen13/cedar-course.git
+#cd cedar-course
 
 # Source OpenFOAM
 #. /opt/openfoam/openfoam2306/etc/bashrc
