@@ -23,7 +23,7 @@ echo "Setting up solver..."
 cd $FOAM_SOLVERS
 mkdir -p pimpleScalarsFoam
 cp -r incompressible/pimpleFoam/* pimpleScalarsFoam/
-cp /data/cedar-course/pimpleScalarsFoam/* pimpleScalarsFoam/
+cp /root/cedar-course/pimpleScalarsFoam/* pimpleScalarsFoam/
 cd pimpleScalarsFoam
 rm -f pimpleFoam.C
 
@@ -36,6 +36,7 @@ rm -f pimpleFoam.C
 # Compile
 echo "Compiling solver..."
 wmake
+cd
 
 # Set up foam user
 echo "Setting up foam user..."
