@@ -45,5 +45,5 @@ chown -R foam:foam /data/cedar-course
 echo "Setup complete! To run a case:"
 echo "1. Switch to foam user: su - foam"
 #echo "2. Source OpenFOAM: . /opt/openfoam/openfoam2306/etc/bashrc"
-echo "2. Navigate to your case directory: cd /data/cedar-course/mefe-swakless"
+echo "2. Navigate to your case directory: cd /data/cedar-course/mefenemic-base"
 echo "3. Run: pimpleScalarsFoam"
