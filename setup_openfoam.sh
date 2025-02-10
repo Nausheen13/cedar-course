@@ -24,7 +24,7 @@ echo "Setting up solver..."
 cd $FOAM_SOLVERS
 mkdir -p pimpleScalarsFoam
 cp -r incompressible/pimpleFoam/* pimpleScalarsFoam/
-cp /root/cedar-course/pimpleScalarsFoam/* pimpleScalarsFoam/
+cp -r /root/cedar-course/pimpleScalarsFoam/* pimpleScalarsFoam/
 cd pimpleScalarsFoam
 rm -f pimpleFoam.C
 
@@ -42,10 +42,11 @@ cd
 # Set up foam user
 echo "Setting up foam user..."
 useradd -m foam
-chown -R foam:foam /data/cedar-course
+#chown -R foam:foam /data/cedar-course
 
 echo "Setup complete! To run a case:"
 echo "1. Switch to foam user: su - foam"
 #echo "2. Source OpenFOAM: . /opt/openfoam/openfoam2306/etc/bashrc"
-echo "2. Navigate to your case directory: cd /data/cedar-course/mefenemic-base"
-echo "3. Run: pimpleScalarsFoam"
+echo "2. git clone: git clone https://github.com/Nausheen13/cedar-course.git"
+echo "3. Navigate to your case directory: cd /data/cedar-course/mefenemic-base"
+echo "4. Run: pimpleScalarsFoam"
