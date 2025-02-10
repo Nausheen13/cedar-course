@@ -22,7 +22,7 @@ fig = plt.figure(figsize=(15, 6))
 
 # Plot 1: Best Target Value Found So Far
 ax1 = fig.add_subplot(121)
-iterations = range(1, len(data) + 1)
+iterations = range(1, len(filtered_data) + 1)
 best_so_far = np.minimum.accumulate(targets)
 ax1.plot(iterations, targets, 'g-o', linewidth=2, markersize=8)
 ax1.plot(iterations, best_so_far, 'r:', linewidth=2, label='Best value')
